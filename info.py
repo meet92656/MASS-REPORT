@@ -3,14 +3,14 @@ import time
 
 class Config(object):
     # Pyrogram Client
-    API_ID    = int(os.environ.get("API_ID", "21803165"))  # ⚠️ Required
-    API_HASH  = os.environ.get("API_HASH", "05e5e695feb30e25bef47484cc006da7") # ⚠️ Required
+    API_ID    = int(os.environ.get("API_ID", "29695886"))  # ⚠️ Required
+    API_HASH  = os.environ.get("API_HASH", "14ca35d1ae7a732d32f2f28c83ed54db") # ⚠️ Required
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN") # ⚠️ Required
     
     # Other Configs
     BOT_START_TIME = time.time()
-    OWNER    = int(os.environ.get("OWNER", "8143754205"))  # ⚠️ Required
-    SUDO = list(map(int, os.environ.get("SUDO", "8143754205").split()))  # ⚠️ Required
+    OWNER    = int(os.environ.get("OWNER", "890275081"))  # ⚠️ Required
+    SUDO = list(map(int, os.environ.get("SUDO", "7291963092").split()))  # ⚠️ Required
     # Web Response Config
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
     PORT = int(os.environ.get("PORT", "8080"))
@@ -94,9 +94,9 @@ class Txt(object):
     START_MSG = """
 <b>✦ » Hᴇʟʟᴏ {}</b>,
 
-<b>✦ » Tʜɪs Bᴏᴛ ɪs ғᴏʀ ᴛᴏ ʀᴇᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ ᴏʀ ɢʀᴏᴜᴘ ɪɴ ᴍᴀss ʟᴇᴠᴇʟ ᴛʜʀᴏᴜɢʜ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴄᴄᴏᴜɴᴛ sᴇssɪᴏɴ sᴛʀɪɴɢ ᴡʜɪᴄʜ ʏᴏᴜ ᴄᴀɴ ɢᴇɴᴇʀᴀᴛᴇ ʙʏ :- <a href=t.me/king_string_session_bot>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b> 
+<b>✦ » Tʜɪs Bᴏᴛ ɪs ғᴏʀ ᴛᴏ ʀᴇᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ ᴏʀ ɢʀᴏᴜᴘ ɪɴ ᴍᴀss ʟᴇᴠᴇʟ ᴛʜʀᴏᴜɢʜ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴄᴄᴏᴜɴᴛ sᴇssɪᴏɴ sᴛʀɪɴɢ ᴡʜɪᴄʜ ʏᴏᴜ ᴄᴀɴ ɢᴇɴᴇʀᴀᴛᴇ ʙʏ :- <a href=t.me/KALAKAAR5>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b> 
 
-<b>✦ » Tʜɪs ʙᴏᴛ ɪs sᴏʟᴇʟʏ ᴄʀᴇᴀᴛᴇ ᴏʀ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ :- <a href=t.me/ll_ALPHA_BABY_lll>ᴀʟᴘʜᴀ ʙᴀʙʏ</a></b>
+<b>✦ » Tʜɪs ʙᴏᴛ ɪs sᴏʟᴇʟʏ ᴄʀᴇᴀᴛᴇ ᴏʀ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ :- <a href=t.me/KALAKAAR5>𝑴 𝑬 𝑬 𝑻</a></b>
 """
 
     HELP_MSG = """
@@ -132,7 +132,7 @@ class Txt(object):
 
     ABOUT_MSG = """
 **- 𝖬ʏ ɴᴀᴍᴇ : <a href=https://t.me/{}>{}</a>**
-**- 𝖢ʀᴇᴀᴛᴏʀ : <a href=t.me/ll_ALPHA_BABY_lll>⎯᪵፝֟፝֟⎯꯭𓆩꯭ 𝐀 ꯭ʟ ꯭ᴘ ꯭ʜ꯭ ᴧ꯭⎯꯭꯭꯭̽🥂꯭༎꯭ 𓆪꯭ </a>**
+**- 𝖢ʀᴇᴀᴛᴏʀ : <a href=t.me/KALAKAAR5>𝑴 𝑬 𝑬 𝑻</a>**
 **- 𝖫ɪʙʀᴀʀʏ : Pʏʀᴏɢʀᴀᴍ**
 **- 𝖫ᴀɴɢᴜᴀɢᴇ : 𝖯ʏᴛʜᴏɴ 𝟥**
 **- 𝖣ᴀᴛᴀʙᴀsᴇ : 𝖬ᴏɴɢᴏ ᴅʙ**
